@@ -111,7 +111,6 @@ public class Pixel
     // then AND it with all 1's for the first 8 bits to 
     // end up with a resulting value from 0 to 255 
     int red = (value >> 16) & 0xff;
-    
     return red;
   }
   
